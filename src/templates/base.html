@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include 'header.inc' %}
+
+	<title>DJANGO - {% block title %}{% endblock %}</title>
+</head>
+<body>
+{% include 'navbar.inc' %}
+{% block content %}
+	nahraď obsah
+{% endblock %}
+
+</body>
+</html>
